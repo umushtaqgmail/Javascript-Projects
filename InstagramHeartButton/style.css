@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(#005AA7,#FFFDE4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.container{
+   background-color: #FFFDE4;
+   height: 400px;
+   width: 300px;
+   position: relative;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container .like{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% ) scale(0);
+    font-size: 70px;
+    color: #ffffff;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+
