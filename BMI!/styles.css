@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(100deg, #3a7bd5,#00d2ff);
+    font-family: 'Martian Mono', monospace;
+    height: 100vh;
+}
+
+
+
+.container {
+    width: 380px;
+    height: 580px;
+    background-color: transparent;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 40px;
+    background: #ffffff;
+
+    
+  }
+  .container h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+  }
+ 
+
+  input{
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-family: 'Martian Mono', monospace;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  
+  h4{
+    margin-top: 20px;
+  }
+  #results {
+margin-top: 40px;
+color: green;
+   
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    color: #000000;
+    background-color: #00d2ff;
+    font-weight: 700;
+    margin-top: 40px;
+    cursor: pointer;
+
+
+  }
+
+  #weight-guide{
+    margin-top: 20px;
+  }
+
+  #weight-guide h5{
+    margin-bottom: 10px;
+  }
+  #weight-guide p{
+        font-size: 10px;
+        padding: 3px;
+  }
+
+  
+  
+  
+  
