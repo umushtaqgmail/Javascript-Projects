@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 50px;
+}
+
+.project-counter ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.project-counter ul li{
+    width: 33.3%;
+    height: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    transition: 0.2 linear;
+}
+.project-counter ul li:hover{
+    transform: scale(1.1);
+
+}
+
+.project-counter ul li:nth-child(1){
+    background-color:rgb(16,31,46) ;
+}
+.project-counter ul li:nth-child(2){
+    background-color:rgb(16,31,46) ;
+}
+.project-counter ul li:nth-child(3){
+    background-color:rgb(16,31,46) ;
+}
+
+.project-counter ul li p.number{
+    font-size: 40px;
+    padding: 0;
+    font-weight: bold;
+}
+.project-counter ul li p{
+ color: #ffffff;
+ font-size: 18px;
+ padding: 10px;
+
+}
+
+.project-counter ul li span{
+    width: 60px;
+    background: #ffffff;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.project-counter ul li i{
+    color: #ffffff;
+    font-size: 50px;
+    vertical-align: middle;
+}
